@@ -1,28 +1,33 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/today/index",
+    "pages/upcoming",
+    "pages/chart/chart"
   ],
-  "window":{
-    "backgroundTextStyle":"dark",
+  "window": {
+    "backgroundTextStyle": "dark",
     "backgroundColor": "#fff",
     "navigationBarBackgroundColor": "#f9f9f9",
     "navigationBarTitleText": "今日事今日毕",
     "navigationBarTextStyle": "black"
   },
-  "tabBar":{
+  "tabBar": {
     "position": "bottom",
     "color": "#9a9a9a",
     "selectedColor": "#09bb07",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "兑换列表",
-      "iconPath": "./images/list-out.png",
-      "selectedIconPath": "./images/list-over.png"
-    }, {
-      "pagePath": "pages/order/index",
-      "text": "我的兑换",
-      "iconPath": "./images/order-out.png",
-      "selectedIconPath": "./images/order-over.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "兑换列表",
+        "iconPath": "./images/list-out.png",
+        "selectedIconPath": "./images/list-over.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "我的兑换",
+        "iconPath": "./images/order-out.png",
+        "selectedIconPath": "./images/order-over.png"
+      }
+    ]
   }
 }
