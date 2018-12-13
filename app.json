@@ -9,7 +9,7 @@
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#fff",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#fafafa",
     "navigationBarTitleText": "今日事今日毕",
     "navigationBarTextStyle": "black"
   },
