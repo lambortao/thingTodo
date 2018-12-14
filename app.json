@@ -9,46 +9,46 @@
   "window": {
     "backgroundTextStyle": "dark",
     "backgroundColor": "#1c2024",
-    "navigationBarBackgroundColor": "#15191d",
+    "navigationBarBackgroundColor": "#1e272e",
     "navigationBarTitleText": "今日事今日毕",
     "navigationBarTextStyle": "whirt"
   },
   "tabBar": {
     "position": "bottom",
-    "color": "#c5c8ce",
+    "color": "#808695",
     "borderStyle": "white",
-    "backgroundColor": "#15191d",
-    "selectedColor": "#2b85e4",
+    "backgroundColor": "#1e272e",
+    "selectedColor": "#ff5e57",
     "list": [
       {
         "pagePath": "pages/today/index",
         "text": "今日",
-        "iconPath": "./images/today-o.png",
-        "selectedIconPath": "./images/today-c.png"
+        "iconPath": "./images/bar-icon/today-o.png",
+        "selectedIconPath": "./images/bar-icon/today-c.png"
       },
       {
         "pagePath": "pages/upcoming/upcoming",
         "text": "以后",
-        "iconPath": "./images/upcoming-o.png",
-        "selectedIconPath": "./images/upcoming-c.png"
+        "iconPath": "./images/bar-icon/upcoming-o.png",
+        "selectedIconPath": "./images/bar-icon/upcoming-c.png"
       },
       {
         "pagePath": "pages/close/close",
         "text": "完成",
-        "iconPath": "./images/close-o.png",
-        "selectedIconPath": "./images/close-c.png"
+        "iconPath": "./images/bar-icon/close-o.png",
+        "selectedIconPath": "./images/bar-icon/close-c.png"
       },
       {
         "pagePath": "pages/chart/chart",
         "text": "统计",
-        "iconPath": "./images/chart-o.png",
-        "selectedIconPath": "./images/chart-c.png"
+        "iconPath": "./images/bar-icon/chart-o.png",
+        "selectedIconPath": "./images/bar-icon/chart-c.png"
       },
       {
         "pagePath": "pages/user/user",
         "text": "我的",
-        "iconPath": "./images/user-o.png",
-        "selectedIconPath": "./images/user-c.png"
+        "iconPath": "./images/bar-icon/user-o.png",
+        "selectedIconPath": "./images/bar-icon/user-c.png"
       }
     ]
   }

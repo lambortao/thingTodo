@@ -1,7 +1,7 @@
 /* pages/index/index.wxss */
 page{
-  background-color: #15191d;
+  background-color: #f8f8f9;
 }
 text{
-  color: #fff;
+  color: #515a6e;
 }

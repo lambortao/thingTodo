@@ -1,1 +1,7 @@
 /* pages/chart/chart.wxss */
+page{
+  background-color: #f8f8f9;
+}
+text{
+  color: #515a6e;
+}
