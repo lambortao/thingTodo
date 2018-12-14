@@ -1,1 +1,7 @@
 /* pages/index/index.wxss */
+page{
+  background-color: #15191d;
+}
+text{
+  color: #fff;
+}

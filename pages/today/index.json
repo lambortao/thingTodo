@@ -1,4 +1,11 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#1c2024",
+    "navigationBarBackgroundColor": "#15191d",
+    "navigationBarTitleText": "今日事今日毕",
+    "navigationBarTextStyle": "whirt"
+  }
 }
