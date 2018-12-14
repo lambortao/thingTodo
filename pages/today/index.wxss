@@ -2,6 +2,108 @@
 page{
   background-color: #f8f8f9;
 }
-text{
+.todolist-box{
+  width: 100%;
+  padding: 20rpx 20rpx 0rpx 20rpx;
+  box-sizing: border-box;
+}
+.todolist{
+  width: 100%;
+  height: 90rpx;
+  position: relative;
+  box-sizing: border-box;
+}
+.todolist .content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  border: 1px solid #dcdee2;
+  background-color: #fff;
+  box-shadow: 0 0 5px #dcdee2;
+  border-radius: 5rpx;
+  position: relative;
+  z-index: 2;
+}
+.todolist .content .intro{
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.todolist .content .close{
+  width: 38rpx;
+  height: 38rpx;
+  border: 8rpx solid #808695;
+  border-radius: 50%;
+  margin-right: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.todolist .content .close:after{
+  content: '';
+  display: block;
+  width: 15rpx;
+  height: 15rpx;
+  border-radius: 50%;
+  background-color: #ed4014;
+}
+.todolist .content .countdown{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ed4014;
+}
+.todolist .content text{
+  font-size: 0.8rem;
+  font-weight: 500;
   color: #515a6e;
+}
+.todolist .other-box{
+  position: absolute;
+  top: 88rpx;
+  width: 94%;
+  left: 3%;
+  height: 50rpx;
+  z-index: 1;
+  background-color: #fff;
+  border-left: 1px solid #dcdee2;
+  border-right: 1px solid #dcdee2;
+  border-bottom: 1px solid #dcdee2;
+  border-radius: 5rpx;
+  box-sizing: border-box;
+}
+.todolist .other-box .other{
+  height: 50rpx;
+  padding: 5rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.other .left{
+  height: 100%;
+  box-sizing: border-box;
+  width: calc(100% - 150rpx);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.other .left .tag{
+  display: inline-block;
+  font-size: 0.7rem;
+  height: 100%;
+  color: #808695;
+}
+.other .left .class{
+  width: 40rpx;
+  height: 40rpx;
+}
+.other .down {
+  width: 150rpx;
+  height: 40rpx;
 }

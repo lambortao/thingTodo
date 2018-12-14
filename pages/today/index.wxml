@@ -1,3 +1,33 @@
 <view>
-  <text>这是一句测试文案</text>
+  <view class="todolist-box">
+    <view class="todolist">
+      <view class="content">
+        <view class="intro">
+          <view class="close"></view>
+          <text>这是一个测试事件</text>
+        </view>
+        <view class="countdown">20</view>
+      </view>
+      <view class="other-box">
+        <view class="child-list"></view>
+        <view class="other">
+          <view class="left">
+            <view class="tag" alt="标签">测试</view>
+            <view class="class" alt="事件类别">
+              <image src="" />
+            </view>
+            <view class="schedule" alt="事件进度">
+              <text></text>
+            </view>
+            <view class="time" alt="事件耗时">
+              <view>25H:25M</view>
+            </view>
+          </view>
+          <view class="down">
+            <image src="" />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
